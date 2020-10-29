@@ -1,18 +1,13 @@
 # Daily Check List
 
-## 2020.05.05. 화
+## 2020.10.29. 목
 
--Some Menus added.    
--Version 5.4 cant get along to comment adding functions 
--By this, all the files are out of controll.
--So I deleted everything and installed them again.
 
--(소스수정)  
-  1) ~/skin/good.head.skin 추가 
+-Sub Title is edited.
+  1) /www/thema/Basic/head.php 
 ~~~
- <?php
-    $ss_name = 'ss_view_'.$bo_table.'_'.$wr_id;
-    set_session($ss_name, true);
-    $board['bo_use_good'] = true;
- ?>
+				<!-- 20.10.29 서브 제목 수정 -->
+				<span class="header-desc">
+					하나님이 너의 기도를 들으신단다
+				</span>
 ~~~
