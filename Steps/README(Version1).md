@@ -8,10 +8,10 @@
 ~~~
 			<div class="header-logo">
 				<a href="<?php echo $at_href['home'];?>">
-					Home
+					Letter†
 				</a>
 				<span class="header-desc">
-					하나님이 날 사랑하시네
+					<span style="color: black;">하나님</span>께 보내는 나의 작은 <span style="color: red;">편지</span>
 				</span>
 			</div>
 ~~~
@@ -82,7 +82,7 @@
 				<div class="header-logo en">
 					<!-- Mobile Logo -->
 					<a href="<?php echo $at_href['home'];?>">
-						<b>Home</b>
+						<b>Letter†</b>
 					</a>
 				</div>
 ~~~
