@@ -75,4 +75,15 @@
 
 ~~~
 
+-The name of mobile header is changed to "home"
+  1)/www/thema/Basic/head.php
+  
+~~~
+				<div class="header-logo en">
+					<!-- Mobile Logo -->
+					<a href="<?php echo $at_href['home'];?>">
+						<b>Home</b>
+					</a>
+				</div>
+~~~
 
