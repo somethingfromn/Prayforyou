@@ -30,3 +30,49 @@
 
 ~~~
 
+-Menus names are changed to '찬양' , '감사', '회개', '기도', '간증', '질문' 등
+
+-Some of the main page are changed. (갤러리, 웹진, 이미지 배너 are commented)
+  1)/www/thema/Basic/main/basic-main.php
+
+~~~
+
+			 <!-- 갤러리 시작 --> <!-- 갤러리 생략
+			<div class="div-title-underbar">
+				<a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=basic">
+					<span class="pull-right lightgray <?php echo $font;?>">+</span>
+					<span class="div-title-underbar-bold border-<?php echo $line;?> <?php echo $font;?>">
+						<b>Gallery</b>
+					</span>
+				</a>
+			</div>
+			<div class="widget-box">
+				<?php echo apms_widget('basic-post-gallery', $wid.'-wm3', 'center=1'); ?>
+			</div>-->
+			<!-- 갤러리 끝 -->	
+
+			<!-- 웹진 시작 --> <!-- 웹진 생략
+			<div class="div-title-underbar">
+				<a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=basic">
+					<span class="pull-right lightgray <?php echo $font;?>">+</span>
+					<span class="div-title-underbar-bold border-<?php echo $line;?> <?php echo $font;?>">
+						<b>Webzine</b>
+					</span>
+				</a>
+			</div>
+			<div class="widget-box">
+				<?php echo apms_widget('basic-post-webzine', $wid.'-wm4', 'bold=1 date=1'); ?>
+			</div> -->
+			<!-- 웹진 끝 -->	
+
+			<!-- 이미지 배너 시작 --> <!-- 이미지배너 생략
+			<div class="widget-box widget-img">
+				<a href="#배너이동주소">
+					<img src="<?php echo THEMA_URL;?>/assets/img/banner.jpg">
+				</a>
+			</div> -->
+			<!-- 이미지 배너 끝 --> 
+
+~~~
+
+
